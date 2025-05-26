@@ -2,10 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full bg-zinc-200 text-black flex items-center justify-center">
-      <div className="flex flex-col items-center justify-center w-xl bg-slate-50 rounded-4xl shadow-2xl">
-        <h1>My Calculator</h1>
-        <h1>Here you go!</h1>
+    <div className="h-screen w-full bg-gradient-to-br from-gray-900 via-gray-700 to-gray-900 flex items-center justify-center">
+      <div className="flex flex-col w-xl bg-gradient-to-bl from-gray-900 via-zinc-700 to-gray-900 rounded-4xl shadow-xl shadow-zinc-900  p-8">
+        <h1 className="text-5xl text-right">My Calculator</h1>
 
         <div className="flex">
           <div>
